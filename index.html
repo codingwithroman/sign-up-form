@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mainWrapper">
+        <div class="logoSection">
+            <div class="logoContainer"></div>
+        </div>
+        <div class="formSection">
+            <form action="https://httpbin.org/post" method="post">
+                <h3>Hey daar! Hier komt de tekst om je over te halen om in te schrijven.</h3>
+                <h3>Daar komt ie!</h3>
+                <div class="formInput">
+                    <legend>Let's do this!</legend>
+                    <div class="inputRow">
+                        <div class="inputGroup">
+                            <label for="first-name">First Name</label>
+                            <input type="text" name="first-name" id="first-name">
+                        </div>
+                        <div class="inputGroup">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" name="last-name" id="last-name">
+                        </div>
+                    </div>
+                    <div class="inputRow">
+                        <div class="inputGroup">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <div class="inputGroup">
+                            <label for="phone-number">Phone Number</label>
+                            <input type="tel" name="phone-number" id="phone-number">
+                        </div>
+                    </div>
+                    <div class="inputRow">
+                        <div class="inputGroup">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password">
+                        </div>
+                        <div class="inputGroup">
+                            <label for="password-confirmation">Password Confirmation</label>
+                            <input type="password" name="password-confirmation" id="password-confirmation">
+                        </div>
+                    </div>
+                </div>
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <a href="google.com">Log in</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
